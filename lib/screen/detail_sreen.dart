@@ -18,14 +18,10 @@ class DetailScreen extends StatelessWidget {
   final String dessert;
 
   @override
-  var formKey = GlobalKey<FormState>();
-
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Detail Form"),
-        backgroundColor: Colors.purple
-      ),
+          title: const Text("Detail Form"), backgroundColor: Colors.purple),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -51,12 +47,10 @@ class DetailScreen extends StatelessWidget {
               height: 15,
             ),
             FooterTigaWidget(onPressedEnd: () {
-              if (formKey.currentState!.validate()) {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => LoginScreen()),
-                );
-              }
+              Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(builder: (context) => LoginScreen()),
+              );
             })
           ],
         ),
