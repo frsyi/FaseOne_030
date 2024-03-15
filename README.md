@@ -1,16 +1,6 @@
 # ucp1paml
+![Screenshot 2024-03-15 212958](https://github.com/frsyi/FaseOne_030/assets/115075758/bdb7b641-7001-411c-864e-c300d368812c)
+![Screenshot 2024-03-15 213029](https://github.com/frsyi/FaseOne_030/assets/115075758/58ca7cfa-02bd-4f17-b2d9-8e072bd8dd38)
+![Screenshot 2024-03-15 213136](https://github.com/frsyi/FaseOne_030/assets/115075758/e5b4c3e7-d133-4110-9bc1-992d041813fb)
+![Screenshot 2024-03-15 213201](https://github.com/frsyi/FaseOne_030/assets/115075758/e6872a40-b0aa-4b8e-8a89-25e466587045)
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
