@@ -18,6 +18,7 @@ class MakananScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+          automaticallyImplyLeading: true,
           title: const Text("Data Makanan"), backgroundColor: Colors.purple),
       body: SafeArea(
         child: Center(

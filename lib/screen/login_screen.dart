@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:ucp1paml/main.dart';
-import 'package:ucp1paml/screen/detail_sreen.dart';
 import 'package:ucp1paml/screen/makanan_screen.dart';
 import 'package:ucp1paml/widget/footerSatu_widget.dart';
 import 'package:ucp1paml/widget/formSatu_widget.dart';
