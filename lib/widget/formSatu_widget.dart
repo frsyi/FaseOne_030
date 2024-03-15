@@ -21,6 +21,7 @@ class FormSatuWidget extends StatefulWidget {
 }
 
 class _FormWidgetState extends State<FormSatuWidget> {
+  String? _jenisKelamin;
 
   @override
   Widget build(BuildContext context) {
@@ -74,10 +75,31 @@ class _FormWidgetState extends State<FormSatuWidget> {
                 height: 15,
               ),
               ListTile(
+                title: Text('Perempuan'),
+                leading: Radio<String>(
+                  value: 'Perempuan',
+                  groupValue: _jenisKelamin,
+                  onChanged: (value) {
+                    setState(() {
+                      _jenisKelamin = value;
+                    });
+                  },
+                ),
+              ),
+              ListTile(
+                title: Text('Laki - laki'),
+                leading: Radio<String>(
+                  value: 'Laki-laki',
+                  groupValue: _jenisKelamin,
+                  onChanged: (value) {
+                    setState(() {
+                      _jenisKelamin = value;
+                    });
+                  },
+                ),
               ),
             ],
           ),
         ));
   }
 }
-
