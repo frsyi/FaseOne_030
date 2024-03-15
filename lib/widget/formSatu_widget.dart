@@ -46,7 +46,6 @@ class _FormWidgetState extends State<FormSatuWidget> {
               TextFormField(
                 keyboardType: TextInputType.number,
                 controller: widget.etNoTelp,
-                obscureText: true,
                 decoration: const InputDecoration(
                   labelText: "No Telpon",
                   hintText: "Masukkan No Telpon",
